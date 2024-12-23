@@ -1,0 +1,109 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@900&family=Parkinsans&display=swap');
+
+body,
+header,
+nav,
+main,
+section,
+footer,
+img,
+figure,
+figcaption,
+div,
+ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0 auto;
+    width: 75%;
+    background-color: #f9ccc9;
+    color: #000000;
+}
+
+.banner {
+    background-color: #e94c3f;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+}
+
+.navbar {
+    width: 100%;
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Parkinsans', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar ul {
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ec6156;
+  font-size: large;
+}
+
+.navbar li {
+    padding: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-family: 'Lato', sans-serif;
+    display: inline;
+    float: right;
+}
+
+.navbar li:hover {
+    background-color: #f4a19b;
+    
+    cursor: pointer;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    font-family: 'Merriweather', serif;
+}
+
+.footer {
+    background-color: #f4a19b;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
